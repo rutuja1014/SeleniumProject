@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testngWatches.Maxima"/>
+      <class name="testngMobile.Oppo"/>
+      <class name="testngWatches.Titan"/>
+      <class name="testngMobile.Apple"/>
+      <class name="testngMobile.Oneplus"/>
+      <class name="testngWatches.Rado"/>
+      <class name="testngMobile.Blackberry"/>
+      <class name="testngWatches.Tissot"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test1">
+    <classes>
+      <class name="testngWatches.Maxima"/>
+      <class name="testngMobile.Oppo"/>
+      <class name="testngWatches.Titan"/>
+      <class name="testngMobile.Apple"/>
+      <class name="testngMobile.Oneplus"/>
+      <class name="testngWatches.Rado"/>
+      <class name="testngMobile.Blackberry"/>
+      <class name="testngWatches.Tissot"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->
